@@ -1,0 +1,23 @@
+.inpu-name, .input-email .inpu-password{
+    margin-bottom: 22px;
+}
+.title-acont{
+    margin-bottom: 12px;
+    text-align: start;
+    font-size: 20px;
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    .form div{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .form-acount{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
