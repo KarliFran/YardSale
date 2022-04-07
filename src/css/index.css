@@ -1,7 +1,7 @@
 :root{
-    --hospital-green: "#6EDCD9";
-    --very-light-pink: "#FDF6EC";
-    --text-input-field: "#f7f7f7";
+    --hospital-green: "#05DFD7";
+    --very-light-pink: "#F0E9D2";
+    --text-input-field: "#E6DDC4";
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -25,7 +25,6 @@ body{
 }
 .logo{
     width: 150px;
-    margin-bottom: 48px;
     justify-self: center;
     display: none;
 }
@@ -67,7 +66,7 @@ body{
     color: white;
     padding: 10px;
     cursor: pointer;
-    font-size: var(--md);
+    font-size: 16px;
     font-weight: bold;
 }
 .login-button{
@@ -81,9 +80,7 @@ body{
     gap: 26px;
     place-content: center;
 }
-.product-card{
-    width: 240px;
-}
+
 .product-card img{
     width: 100%;
     height: 240px;
@@ -95,6 +92,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 12px;
+    gap: 10px;
 }
 .product-card figure img{
     width: 35px;
